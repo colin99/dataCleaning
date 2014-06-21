@@ -18,101 +18,103 @@ This is a numeric value between 1 and 30 which identifies the participant in the
 
 The remaining 86 variables represent test data that was collected from a specific *SubjectID* doing a specific *ActivityID*. The data columns selected are all mean or standard deviation columns. For this analysis, any column that contained either "mean" or "std" (case insensitive) anywhere within the name, was included. 
 
-MEAN_tBodyAccx, MEAN_tBodyAccY, MEAN_tBodyAccZ
+When the variables below are grouped together, it indicates the same measurement has been made but just in a different axis (the axis X, Y or Z is determined by the last character in the variable name. 
 
-STD_tBodyAccx, STD_tBodyAccY, STD_tBodyAccZ
+## MEAN_tBodyAccX, MEAN_tBodyAccY, MEAN_tBodyAccZ  
 
-MEAN_tGravityAccX, MEAN_tGravityAccY, MEAN_tGravityAccZ
+## STD_tBodyAccY, STD_tBodyAccY, STD_tBodyAccZ 
 
-STD_tGravityAccX, STD_tGravityAccY, STD_tGravityAccZ
+## MEAN_tGravityAccX, MEAN_tGravityAccY, MEAN_tGravityAccZ 
 
-MEAN_tBodyAccJerkX, MEAN_tBodyAccJerkY, MEAN_tBodyAccJerkZ
+## STD_tGravityAccX, STD_tGravityAccY, STD_tGravityAccZ 
 
-STD_tBodyAccJerkX, STD_tBodyAccJerkY, STD_tBodyAccJerkZ
+## MEAN_tBodyAccJerkX, MEAN_tBodyAccJerkY, MEAN_tBodyAccJerkZ 
 
-MEAN_tBodyGyroX, MEAN_tBodyGyroY, MEAN_tBodyGyroZ
+## STD_tBodyAccJerkX, STD_tBodyAccJerkY, STD_tBodyAccJerkZ 
 
-STD_tBodyGyroX, STD_tBodyGyroY, STD_tBodyGyroZ
+## MEAN_tBodyGyroX, MEAN_tBodyGyroY, MEAN_tBodyGyroZ
+ 
+## STD_tBodyGyroX, STD_tBodyGyroY, STD_tBodyGyroZ
+ 
+## MEAN_tBodyGyroJerkX, MEAN_tBodyGyroJerkY, MEAN_tBodyGyroJerkZ
+ 
+## STD_tBodyGyroJerkX, STD_tBodyGyroJerkY, STD_tBodyGyroJerkZ 
 
-MEAN_tBodyGyroJerkX, MEAN_tBodyGyroJerkY, MEAN_tBodyGyroJerkZ
+## MEAN_tBodyAccMag 
 
-STD_tBodyGyroJerkX, STD_tBodyGyroJerkY, STD_tBodyGyroJerkZ
+## STD_tBodyAccMag 
 
-MEAN_tBodyAccMag
+## MEAN_tGravityAccMag 
 
-STD_tBodyAccMag
+## STD_tGravityAccMag 
 
-MEAN_tGravityAccMag
+## MEAN_tBodyAccJerkMag 
 
-STD_tGravityAccMag
+## STD_tBodyAccJerkMag 
 
-MEAN_tBodyAccJerkMag
+## MEAN_tBodyGyroMag 
 
-STD_tBodyAccJerkMag
+## STD_tBodyGyroMag 
 
-MEAN_tBodyGyroMag
+## MEAN_tBodyGyroJerkMag 
 
-STD_tBodyGyroMag
+## STD_tBodyGyroJerkMag 
 
-MEAN_tBodyGyroJerkMag
+## MEAN_fBodyAccX, MEAN_fBodyAccY, MEAN_fBodyAccZ 
 
-STD_tBodyGyroJerkMag
+## STD_fBodyAccX, STD_fBodyAccY, STD_fBodyAccZ 
 
-MEAN_fBodyAccX, MEAN_fBodyAccY, MEAN_fBodyAccZ
+## MEAN_fBodyAccFreqX, MEAN_fBodyAccFreqY, MEAN_fBodyAccFreqZ 
 
-STD_fBodyAccX, STD_fBodyAccY, STD_fBodyAccZ
+## MEAN_fBodyAccJerkX, MEAN_fBodyAccJerkY, MEAN_fBodyAccJerkZ 
 
-MEAN_fBodyAccFreqX, MEAN_fBodyAccFreqY, MEAN_fBodyAccFreqZ
+## STD_fBodyAccJerkX, STD_fBodyAccJerkY, STD_fBodyAccJerkZ 
 
-MEAN_fBodyAccJerkX, MEAN_fBodyAccJerkY, MEAN_fBodyAccJerkZ
+## MEAN_fBodyAccJerkFreqX, MEAN_fBodyAccJerkFreqY, MEAN_fBodyAccJerkFreqZ 
 
-STD_fBodyAccJerkX, STD_fBodyAccJerkY, STD_fBodyAccJerkZ
+## MEAN_fBodyGyroX, MEAN_fBodyGyroY, MEAN_fBodyGyroZ 
 
-MEAN_fBodyAccJerkFreqX, MEAN_fBodyAccJerkFreqY, MEAN_fBodyAccJerkFreqZ
+## STD_fBodyGyroX, STD_fBodyGyroY, STD_fBodyGyroZ 
 
-MEAN_fBodyGyroX, MEAN_fBodyGyroY, MEAN_fBodyGyroZ
+## MEAN_fBodyGyroFreqX, MEAN_fBodyGyroFreqY, MEAN_fBodyGyroFreqZ
 
-STD_fBodyGyroX, STD_fBodyGyroY, STD_fBodyGyroZ
+## MEAN_fBodyAccMag 
 
-MEAN_fBodyGyroFreqX, MEAN_fBodyGyroFreqY, MEAN_fBodyGyroFreqZ
+## STD_fBodyAccMag 
 
-MEAN_fBodyAccMag
+## MEAN_fBodyAccMagFreq 
 
-STD_fBodyAccMag
+## MEAN_fBodyBodyAccJerkMag 
 
-MEAN_fBodyAccMagFreq
+## STD_fBodyBodyAccJerkMag 
 
-MEAN_fBodyBodyAccJerkMag
+## MEAN_fBodyBodyAccJerkMagFreq 
 
-STD_fBodyBodyAccJerkMag
+## MEAN_fBodyBodyGyroMag 
 
-MEAN_fBodyBodyAccJerkMagFreq
+## STD_fBodyBodyGyroMag 
 
-MEAN_fBodyBodyGyroMag
+## MEAN_fBodyBodyGyroMagFreq 
 
-STD_fBodyBodyGyroMag
+## MEAN_fBodyBodyGyroJerkMag 
 
-MEAN_fBodyBodyGyroMagFreq
+## STD_fBodyBodyGyroJerkMag 
 
-MEAN_fBodyBodyGyroJerkMag
+## MEAN_fBodyBodyGyroJerkMagFreq 
 
-STD_fBodyBodyGyroJerkMag
+## MEAN_angle(tBodyAccgravity) 
 
-MEAN_fBodyBodyGyroJerkMagFreq
+## MEAN_angle(tBodyAccJerk)gravity 
 
-MEAN_angle(tBodyAccgravity)
+## MEAN_angle(tBodyGyrogravity) 
 
-MEAN_angle(tBodyAccJerk)gravity
+## MEAN_angle(tBodyGyroJerkgravity) 
 
-MEAN_angle(tBodyGyrogravity)
+## MEAN_angle(Xgravity) 
 
-MEAN_angle(tBodyGyroJerkgravity)
+## MEAN_angle(Ygravity) 
 
-MEAN_angle(Xgravity)
-
-MEAN_angle(Ygravity)
-
-MEAN_angle(Zgravity)
+## MEAN_angle(Zgravity) 
 
 
 
