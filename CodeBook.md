@@ -20,6 +20,8 @@ The remaining 86 variables represent test data that was collected from a specifi
 
 When the variables below are grouped together, it indicates the same measurement has been made but just in a different axis (the axis X, Y or Z is determined by the last character in the variable name. 
 
+All the variables below have been normalized and are unit-free. 
+
 ## MEAN_tBodyAccX, MEAN_tBodyAccY, MEAN_tBodyAccZ  
 Real Number value of the mean of the time domain tBodyAcc measurement.
 
