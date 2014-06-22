@@ -65,6 +65,13 @@ The command,
 
 creates a wide version of the meltedTable and does an average of the column variables. 
 
+| SubjectID     | ActivityID    | MEAN_tBodyAccX | MEAN_tBodyAccY|
+| ------------- |:-------------:| -----:|  --------:|
+| 1     | LAYING | 0.2215982 | -0.040513953 |
+| 1    | SITTING     |   0.2612376| -0.001308288 |
+| 1| STANDING      |    0.2789176 | -0.016137590 |
+
+
 ## References
 
 (1) Wickham, Hadley. *Tidy Data*, Journal of Statistical Software. Volume VV, Issue II
