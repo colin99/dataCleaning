@@ -27,6 +27,9 @@ Program execution is described in the following steps:
 3. The column names need to be cleaned up as follows:
   1. Change "-" and "," characters into underscores to prevent these characters from causing problems with calculations
   2. In later stages the mean and standard deviation columns will be isolated from the rest of the data. In preparation for that, any columns with either "mean" or "std" anywhere in the column name will have the occurrence eliminated and "MEAN" or "STD" placed at the start of the column name. 
+   
+  **Please note that as a design element, I select any occurrences in the data of "mean" or "std". This results in 88 columns of data. **
+
   3. Remove all "()"'s.
   4. Remove all underscores. This is to clean up the extra underscores created earlier and to eliminate trailing underscores which may have come about by the column name manipulations.
   5. Create two new column names - SubjectID and ActivityID which will be used in the merged data. 
