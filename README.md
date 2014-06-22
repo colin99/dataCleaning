@@ -65,6 +65,8 @@ The command,
 
 creates a wide version of the meltedTable and does an average of the column variables. 
 
+The following table illustrates the tidy aspect of the data. For each combination of subjectID and activityID, there are all the corresponding observation variables. 
+
 | SubjectID     | ActivityID    | MEAN_tBodyAccX | MEAN_tBodyAccY|
 | ------------- |:-------------:| -----:|  --------:|
 | 1     | LAYING | 0.2215982 | -0.040513953 |
